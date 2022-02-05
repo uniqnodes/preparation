@@ -10,3 +10,5 @@ EOF
 ```
 `source $HOME/.profile`  
 `go version`    
+# Install required software packages  
+`sudo apt-get install git curl build-essential make jq -y`  

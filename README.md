@@ -2,7 +2,7 @@
 `sudo apt-get install git curl build-essential make jq -y`  
 
 # Setup Go  
-`curl https://dl.google.com/go/go1.17.6.linux-amd64.tar.gz | sudo tar -C/usr/local -zxvf -`  
+`curl https://dl.google.com/go/go1.17.9.linux-amd64.tar.gz | sudo tar -C/usr/local -zxvf -`  
 ```
 cat <<'EOF' >>$HOME/.profile
 export GOROOT=/usr/local/go
